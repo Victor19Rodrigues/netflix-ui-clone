@@ -1,0 +1,68 @@
+.movieCarousel {
+  margin-bottom: 30px;
+}
+
+.movieCarousel h2 {
+  margin: 0px 0px 0px 30px;
+}
+
+.movieCarousel--left, 
+.movieCarousel--right {
+  position: absolute;
+  width: 40px;
+  height: 225px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+.movieCarousel--left {
+  left: 0;
+}
+
+.movieCarousel--right {
+  right: 0;
+}
+
+.movieCarousel:hover .movieCarousel--left,
+.movieCarousel:hover .movieCarousel--right {
+  opacity: 1;
+}
+
+.movieCarousel--listarea {
+  overflow-x: hidden;
+  padding-left: 30px;
+}
+
+.movieCarousel--list {
+  transition: all ease 0.5s;
+}
+
+.movieCarousel--item {
+  display: inline-block;
+  width: 150px;
+  cursor: pointer;
+}
+
+.movieCarousel--item img {
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.2s;
+}
+
+.movieCarousel--item img:hover {
+  transform: scale(1);
+}
+
+@media (max-width: 760px) {
+  .movieCarousel--left,
+  .movieCarousel--right {
+    opacity: 1;
+  }
+}
