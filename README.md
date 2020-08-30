@@ -1,68 +1,92 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img alt="Nubank" title="#Netflix" src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_Netflix.png" width="250px" />
+</div>
 
-## Available Scripts
+<br />
 
-In the project directory, you can run:
+<h2 align="center">
+  Netflix Home UI Clone 
+</h2>
 
-### `yarn start`
+<p align="center">
+  <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/Victor19Rodrigues/netflix-ui-clone?color=E6050E">
+   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Victor19Rodrigues/netflix-ui-clone?color=E6050E">
+  <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/Victor19Rodrigues/netflix-ui-clone?color=E6050E">
+  <img alt="Made by Stefano" src="https://img.shields.io/badge/made%20by-Victor19Rodrigues-%20?color=E6050E">
+  <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/Victor19Rodrigues/netflix-ui-clone?color=E6050E">
+  <img alt="GitHub license" src="https://img.shields.io/github/license/Victor19Rodrigues/netflix-ui-clone?color=E6050E">
+</p> 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#computer-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#construction_worker-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bug-issues">Issues</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tada-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#mailbox_with_mail-get-in-touch">Get in touch</a>
+  </p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <p align="center">📚 Project made to study ReactJS 📚</p>
 
-### `yarn test`
+## :computer: Project 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Simple UI Clone with The Movie Database [TMDb](https://www.themoviedb.org/?language=pt-BR) API to study interfaces in ReactJS.
 
-### `yarn build`
+## :rocket: Technologies
+This project was made using the follow technologies:
+<ul>
+  <li><a href="https://pt-br.reactjs.org/">React</a></li>
+  <li><a href="https://www.themoviedb.org/?language=pt-BR">TMDb</a></li>
+</ul>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Web Screenshot
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+   <img src="https://github.com/Victor19Rodrigues/netflix-ui-clone/blob/master/.github/web_1.png" width="400px">
+   <img src="https://github.com/Victor19Rodrigues/netflix-ui-clone/blob/master/.github/web_2.png" width="400px">
+</div>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Mobile Screenshot
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+   <img src="https://github.com/Victor19Rodrigues/netflix-ui-clone/blob/master/.github/mobile_1.png" width="400px">
+   <img src="https://github.com/Victor19Rodrigues/netflix-ui-clone/blob/master/.github/mobile_2.png" width="400px">
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :construction_worker: How to run
+```bash
+# Clone Repository
+$ git clone https://github.com/Victor19Rodrigues/netflix-ui-clone.git
+```
 
-### `yarn eject`
+### 💻 Run Web Project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Install dependencies
+$ yarn install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Run aplication
+$ yarn start
+```
+Go to http://localhost:3000/ to see the result.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :bug: Issues
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Feel free to **file a new issue** with a respective title and description on the the [netflix-ui-clone](https://github.com/Victor19Rodrigues/netflix-ui-clone/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**!
 
-## Learn More
+## :tada: Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Check out the [Contributing](https://github.com/Victor19Rodrigues/netflix-ui-clone/blob/master/CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :mailbox_with_mail: Get in touch!
 
-### Code Splitting
+<a href="https://www.netflix.com/in/victor-rodrigues-676563ba" target="_blank" >
+  <img alt="netflix - Victor Rodrigues" src="https://img.shields.io/badge/netflix--%23F8952D?style=social&logo=netflix">
+</a>&nbsp;&nbsp;&nbsp;
+<a href="mailto:vitor1908@gmail.com" target="_blank" >
+  <img alt="Email - Victor Rodrigues" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+</a> 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Give a ⭐️ if this project helped you!
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Made with ❤️ by Victor Rodrigues.
